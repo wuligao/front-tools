@@ -28,6 +28,15 @@ export default defineConfig({
             return 'vendor-qrcode';
           }
 
+          if (
+            id.includes('node_modules/iconv-lite')
+            || id.includes('node_modules/jschardet')
+            || id.includes('node_modules/buffer')
+            || id.includes('node_modules/safer-buffer')
+          ) {
+            return 'vendor-encoding';
+          }
+
           if (id.includes('node_modules/dayjs') || id.includes('node_modules/highlight.js')) {
             return 'vendor-utils';
           }

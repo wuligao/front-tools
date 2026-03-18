@@ -167,6 +167,14 @@ export const toolGroups = [
     title: '编码/加密解密工具',
     items: [
       {
+        label: '编码转换器',
+        path: '/encoding-converter',
+        icon: 'DocumentCopy',
+        title: '文本编码转换器',
+        description: '支持 UTF-8、GBK、GB2312、Latin-1、UTF-16、Big5 等文本编码互转，并可自动检测源编码。',
+        keywords: '编码转换,UTF-8转GBK,GB2312转UTF8,Latin1转换,Big5转换,文本编码工具',
+      },
+      {
         label: '哈希计算',
         path: '/hash-calculator',
         icon: 'Key',

@@ -20,6 +20,7 @@ const routeComponentMap = {
   '/unit-converter': () => import('../components/tools/UnitConverterTool.vue'),
   '/random-picker': () => import('../components/tools/RandomPickerTool.vue'),
   '/qrcode-generator': () => import('../components/tools/QrCodeGeneratorTool.vue'),
+  '/encoding-converter': () => import('../components/tools/EncodingConverterTool.vue'),
   '/hash-calculator': () => import('../components/tools/HashCalculatorTool.vue'),
   '/local-notes': () => import('../components/tools/LocalNotesTool.vue'),
   '/timer-tool': () => import('../components/tools/TimerTool.vue'),
