@@ -1,0 +1,1 @@
+import{M as r}from"./vendor-element-BpauKo03.js";async function o(t,e="复制成功"){try{return await navigator.clipboard.writeText(String(t)),r.success(e),!0}catch{return r.error("复制失败，请手动复制"),!1}}export{o as c};
